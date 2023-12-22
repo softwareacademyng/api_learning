@@ -2,7 +2,7 @@
 
 
 const getData = async ()=>{
-    const response = await fetch("http://student-api.softwareacademy.ng/api/");
+    const response = await fetch("https://student-api.softwareacademy.ng/api/");
     try {
         const row = document.getElementById("row");
         row.innerHTML = ``;
